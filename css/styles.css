@@ -1,0 +1,209 @@
+
+  /* Remove the navbar's default margin-bottom and rounded borders */
+  body {
+  	font-family: 'Nunito Sans', sans-serif;
+  	font-size: 14px;
+  }
+
+  .loader {
+  	position: fixed;
+  	z-index: 9999;
+  	top: 0;
+  	left: 0;
+  	width: 100%;
+  	height: 100%;
+  	background-color: #f1f1f1;
+  }
+
+  .loader-content {
+  	width: 100%;
+  	text-align: center;
+  	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+  }
+
+  .loader-content img {
+  	width: 120px;
+  	-webkit-animation:spin 2s linear infinite;
+  	-moz-animation:spin 2s linear infinite;
+  	animation:spin 2s linear infinite;
+  }
+  @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+  @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+  @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+  .nav-pills {
+  	text-transform: uppercase;
+  	float: right;
+  	width: 100%;
+    line-height: 70px;
+  }
+
+
+
+  .nav-pills > li {
+      float: right;
+  }
+
+  .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  	color: #becedb;
+  	background-color: transparent;
+  }
+
+  .nav-pills > li > a, .nav-pills > li > a:hover, .nav-pills > li > a:focus {
+  	color: #c49d91;
+  }
+
+  .nav-pills > li > a:hover, .nav-pills > li > a:hover, .nav-pills > li > a:focus {
+  	color: #bbb;
+  	background-color: transparent;
+  }
+
+  .full-header {
+  	width: 100%;
+  	height: 580px;
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	background-position: center;
+  	background-attachment: fixed;
+  	position: relative;
+  	background-image:url('6.jpg')
+  }
+
+  .full-header .overlay {
+  	background-color: rgba(51, 51, 51, 0.15);
+  	background-repeat: repeat;
+  	height: 100%;
+  	width: 100%;
+  	position: absolute;
+  }
+
+  .full-header .search {
+  	position: absolute;
+  	top: 50%;
+  	transform: translateY(-50%);
+  	width: 100%;
+  	text-align: center;
+  }
+
+  .full-header .bottom-text {
+  	position: absolute;
+  	bottom: 0;
+  	height: 60px;
+  	width: 100%;
+  	padding: 15px;
+  	font-weight: 100;
+  	text-transform: uppercase;
+  	text-align: center;
+  	color: #FFF;
+  	background-color: rgba(0, 0, 0, 0.5);
+  	font-size: 22px;
+  }
+  .register-btn {
+  	height: 52px !important;
+  }
+
+  .principal-search {
+  	background-color: rgba(243, 243, 243, 0.90);
+  	border: none;
+  	width: 40%;
+  	padding: 10px;
+  	font-size: 20px;
+  	font-weight: 100;
+  }
+
+  .principal-search-btn {
+  	background-color: #434072;
+  	color: #fff;
+  	border: none;
+  	margin-left: -3px;
+  	padding: 10px 20px;
+  	font-size: 20px;
+  }
+.display-middle{
+  display:right;
+  color:white;
+}
+
+h3{
+  color:#a5ccaf;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+  /* Add a gray background color and some padding to the footer */
+  footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+    color:darkgrey;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+
+  #green{
+    color:darkgreen;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .line-dec {
+  	width: 46px;
+  	height: 2px;
+  	background-color: #434072;
+  	margin-bottom: 25px;
+  }
+
+  .grid-sizer, .grid-item {
+
+  	width: 33.33%;
+  }
+
+  .grid-item {
+    margin-bottom: 10px;
+  	margin-bottom: 5px;
+  	padding: 5px;
+  }
+
+  .overlay{
+    display: none;
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity:0.1;
+    background: rgba(0,0,0,.8);
+}
+
+.box-login{
+    display: none;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 450px;
+    height: 400px;
+    z-index: 900;
+}
+
+.sidenavbar {
+     margin-top: -20px;
+      background-color: #f1f1f1;
+      height:100%;
+
+    }
+
+  .row.content2{
+      height: 800px;
+    }
+
+.maintext{
+  padding:80px;
+}
+
+#texttitle{
+  color:#cc4400;
+  font-family: monospace;
+}
